@@ -47,16 +47,9 @@ jobs:
         with:
           name: .net-app
 
-
-      - name: Azure Login
-        uses: Azure/login@v1.4.6
-        with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
-
-
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
-        uses: azure/webapps-deploy@v2.2.10
+        uses: azure/webapps-deploy@v2
         with:
           app-name: 'webapp-asda-zarajose'
           slot-name: 'Production'
