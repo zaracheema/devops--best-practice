@@ -4,9 +4,9 @@
 name: Build and deploy ASP.Net Core app to Azure Web App - webapp-asda-zarajose
 
 on:
-  push:
-    branches:
-      - main
+  #push:
+   # branches:
+    #  - main
   workflow_dispatch:
 
 jobs:
@@ -46,6 +46,13 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: .net-app
+
+
+      - name: Azure Login
+        uses: Azure/login@v1.4.6
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
