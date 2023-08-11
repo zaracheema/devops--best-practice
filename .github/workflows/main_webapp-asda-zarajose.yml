@@ -56,7 +56,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'webapp-asda-zarajose'
+          app-name: 'webappzarajose'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C2ACD1719B984CEDB2EABF732C0F5EE9 }}
           package: .
