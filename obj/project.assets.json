@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\deliveries\\Asda\\basicapp\\basicApp\\RazorPagesMovie\\RazorPagesMovie.csproj",
+      "projectUniqueName": "C:\\Users\\josealonso\\Source\\Repos\\zaracheema\\devops--best-practice\\RazorPagesMovie.csproj",
       "projectName": "RazorPagesMovie",
-      "projectPath": "C:\\deliveries\\Asda\\basicapp\\basicApp\\RazorPagesMovie\\RazorPagesMovie.csproj",
+      "projectPath": "C:\\Users\\josealonso\\Source\\Repos\\zaracheema\\devops--best-practice\\RazorPagesMovie.csproj",
       "packagesPath": "C:\\Users\\josealonso\\.nuget\\packages\\",
-      "outputPath": "C:\\deliveries\\Asda\\basicapp\\basicApp\\RazorPagesMovie\\obj\\",
+      "outputPath": "C:\\Users\\josealonso\\Source\\Repos\\zaracheema\\devops--best-practice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josealonso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.307\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -65,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
