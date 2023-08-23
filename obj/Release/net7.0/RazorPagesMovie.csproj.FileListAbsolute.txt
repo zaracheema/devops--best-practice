@@ -1,0 +1,7 @@
+C:\Users\josealonso\Source\Repos\zaracheema\devops--best-practice\obj\Release\net7.0\RazorPagesMovie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josealonso\Source\Repos\zaracheema\devops--best-practice\obj\Release\net7.0\RazorPagesMovie.AssemblyInfoInputs.cache
+C:\Users\josealonso\Source\Repos\zaracheema\devops--best-practice\obj\Release\net7.0\RazorPagesMovie.AssemblyInfo.cs
+C:\Users\josealonso\Source\Repos\zaracheema\devops--best-practice\obj\Release\net7.0\RazorPagesMovie.csproj.CoreCompileInputs.cache
+C:\Users\josealonso\Source\Repos\zaracheema\devops--best-practice\obj\Release\net7.0\RazorPagesMovie.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\josealonso\Source\Repos\zaracheema\devops--best-practice\obj\Release\net7.0\RazorPagesMovie.RazorAssemblyInfo.cache
+C:\Users\josealonso\Source\Repos\zaracheema\devops--best-practice\obj\Release\net7.0\RazorPagesMovie.RazorAssemblyInfo.cs

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VIXzoCYmUAy+M4XjtGWqz8m94RliRje83LDu1Dcq0SfnJ4YypJ7z4L2+rzP1Tuijsjc+KyBk5oiUG0kHuYzVcA==",
+  "dgSpecHash": "AC/SMyyhmNH4o0L+ybTLFDv9DfGlVeAiLzMX+SyXukjz8BzPVFX1RhP71AQ0lrgNBk2KENW4Uq+WnTCA64RsIw==",
   "success": true,
   "projectFilePath": "C:\\Users\\josealonso\\Source\\Repos\\zaracheema\\devops--best-practice\\RazorPagesMovie.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\josealonso\\.nuget\\packages\\mstest.testframework\\3.1.1\\mstest.testframework.3.1.1.nupkg.sha512"
+  ],
   "logs": []
 }
