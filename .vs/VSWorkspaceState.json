@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\Pages"
   ],
+  "SelectedNode": "\\RazorPagesMovie.sln",
   "PreviewInSolutionExplorer": false
 }

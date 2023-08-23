@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesMovie", "RazorPagesMovie.csproj", "{E54AA6D5-FA51-420F-86D1-77DF0089C63C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsProj", "..\TestsProj\TestsProj.csproj", "{80944E71-88C8-4833-9A50-F0555384E70C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsProj", "..\TestsProj\TestsProj.csproj", "{80944E71-88C8-4833-9A50-F0555384E70C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A0BA1476-7547-4046-BA33-1BABC1AAFBB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E54AA6D5-FA51-420F-86D1-77DF0089C63C} = {A0BA1476-7547-4046-BA33-1BABC1AAFBB7}
+		{80944E71-88C8-4833-9A50-F0555384E70C} = {A0BA1476-7547-4046-BA33-1BABC1AAFBB7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B46937C3-6E83-4DE0-8071-D0DF3E46DB17}
