@@ -22,6 +22,8 @@ jobs:
           dotnet-version: '7.x'
           include-prerelease: true
 
+      # add lint and gating
+
       - name: Build with dotnet
         run: dotnet build --configuration Release
 
@@ -35,7 +37,7 @@ jobs:
           path: ${{env.DOTNET_ROOT}}/myapp
 
   deploy:
-    runs-on: windows-latest
+    runs-on: windows-latest  # change to linux
     needs: build
     environment:
       name: 'Production'
@@ -60,3 +62,6 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C2ACD1719B984CEDB2EABF732C0F5EE9 }}
           package: .
+
+# create a button that will make the app crash and fire an exception - automate issue creation
+# move the app to the microsoft VS Enterprise acc 
